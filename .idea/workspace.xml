@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1411468a-3fd4-4336-8d26-624f178a5ab5" name="Changes" comment="Using terraform for aws resources">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1411468a-3fd4-4336-8d26-624f178a5ab5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/infrastructure/production.tfvars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/variables.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/vpc.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/vpc.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +122,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722016663076</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Using terraform for aws resources">
+      <option name="closed" value="true" />
+      <created>1722020573710</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722020573710</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add production.tfvars file">
+      <option name="closed" value="true" />
+      <created>1722024699055</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722024699055</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,8 +166,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Using terraform for aws resources" />
     <MESSAGE value="Add EIP for NGW" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add EIP for NGW" />
+    <MESSAGE value="Using terraform for aws resources" />
+    <MESSAGE value="Add production.tfvars file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add production.tfvars file" />
   </component>
 </project>
